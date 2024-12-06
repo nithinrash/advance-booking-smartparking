@@ -98,7 +98,7 @@ slotButton.onclick = async () => {
                   set(bookingRef, 1)
                       .then(() => console.log(`Slot ${slotLabel} is now available.`))
                       .catch(error => console.error("Error updating database: ", error));
-              }, 30000); // 30000 milliseconds = 30 seconds
+              }, 59000); // 30000 milliseconds = 30 seconds
           })
           .catch(error => console.error("Error updating database: ", error));
   }
